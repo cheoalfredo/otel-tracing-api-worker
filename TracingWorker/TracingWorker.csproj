@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-TracingWorker-B5E6AD62-D032-45A3-AF3C-E04518084B9D</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="10.0.1" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.1" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.1" />
+		<PackageReference Include="microsoft.entityFrameworkcore.sqlserver" Version="6.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+		<PackageReference Include="microsoft.extensions.logging" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
+		<PackageReference Include="OpenTelemetry" Version="1.2.0-rc1" />
+		<PackageReference Include="opentelemetry.api" Version="1.2.0-rc1" />
+		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.1.0" />
+		<PackageReference Include="OpenTelemetry.Exporter.Zipkin" Version="1.1.0" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.0.0-rc8" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.0.0-rc8" />
+		<PackageReference Include="OpenTelemetry.Instrumentation.SqlClient" Version="1.0.0-rc8" />
+		<PackageReference Include="rabbitmq.client" Version="6.2.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Application\" />
+	</ItemGroup>
+</Project>
