@@ -1,5 +1,7 @@
 # otel-tracing-api-worker
 
+This repo is part of an article in [Tracing distribuido en Microservicios con OpenTelemetry .NET](https://cheoalfredo.medium.com/tracing-distribuido-en-microservicios-con-opentelemetry-net-862cf94b6704)
+
 This repo contains : 
 * WebApi project wich acts as a Rest API
 * Worker Service wich acts as a background process to asynchronously persists data to a database.
